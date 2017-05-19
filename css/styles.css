@@ -167,6 +167,13 @@ a.btn-cta-primary:hover,
 
 
 /*ABOUT*/
+.about{
+  font-family: "Lato", arial, sans-serif;
+}
+
+.about p{
+  font-size: 18px;
+}
 
 
 /*PROJECTS*/
@@ -299,15 +306,19 @@ a.btn-cta-primary:hover,
 }
 
 .skills .skillset .level-bar {
-  height: 15px;
+  height: 20px;
   background: #e8e8e8;
 }
 
 .skills .skillset .level-bar-inner {
-  height: 15px;
+  height: 20px;
   background: #66cb8c;
 }
 
+.skills .skillset .level-bar-inner p{
+  color: white;
+  margin: 2px;
+}
 
 /*EDUCATION*/
 
